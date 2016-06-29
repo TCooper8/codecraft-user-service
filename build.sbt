@@ -30,7 +30,8 @@ dockerfile in docker := {
     .mkString(":") + ":" + jarTarget
   new Dockerfile {
     // Base image
-    from("java")
+    //from("java")
+    from("anapsix/alpine-java")
     // Add all files on the classpath
     add(classpath.files, "/app/")
     // Add the JAR file
