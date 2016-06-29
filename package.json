@@ -1,0 +1,24 @@
+{
+  "name": "codecraft-user-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pman": "node node_modules/pman",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCooper8/codecraft-user-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TCooper8/codecraft-user-service/issues"
+  },
+  "homepage": "https://github.com/TCooper8/codecraft-user-service#readme",
+  "dependencies": {
+    "codecraft-user-messages": "file:../codecraft-user-messages",
+    "pman": "file:../pman"
+  }
+}
