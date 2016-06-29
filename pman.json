@@ -1,0 +1,16 @@
+{
+  "name": "codecraft/user-service",
+  "dependencies": {
+    "codecraft/pman": true,
+    "codecraft/codegen": true,
+    "codecraft/user-messages": true,
+    "codecraft/cloud": true
+  },
+  "publish": [
+    "npm install ./",
+    "? docker rmi codecraft/user-service",
+    "sbt compile publish-local docker",
+    "? docker rm -f codecraft_user-service",
+    "docker run -d --name codecraft_user-service codecraft/user-service"
+  ]
+}
