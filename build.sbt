@@ -17,6 +17,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.4.6",
   "org.scalatest" % "scalatest_2.11" % "2.2.6" % "test",
   "codecraft" %% "user-messages" % "1.0.0-SNAPSHOT",
+  "codecraft" %% "auth-messages" % "1.0.0-SNAPSHOT",
   "codecraft" %% "cloud" % "1.0.0-SNAPSHOT"
 )
 
