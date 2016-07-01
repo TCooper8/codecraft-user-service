@@ -4,7 +4,9 @@
     "codecraft/pman": true,
     "codecraft/codegen": true,
     "codecraft/user-messages": true,
-    "codecraft/cloud": true
+    "codecraft/cloud": true,
+    "codecraft/auth-messages": true,
+    "codecraft/auth-service": true
   },
   "publish": [
     "npm install ./",
